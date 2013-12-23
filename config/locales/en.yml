@@ -1,0 +1,6 @@
+en:
+  spree:
+    promotion_rule_types:
+      once_per_user:
+        description: Can only be used one time per user.
+        name: Once per user
