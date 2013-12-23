@@ -1,7 +1,7 @@
 SpreeOncePerUserPromotion
 =========================
 
-Introduction goes here.
+Rule for promotions to have a user apply it only once.
 
 Installation
 ------------
