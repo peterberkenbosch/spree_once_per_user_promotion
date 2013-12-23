@@ -3,16 +3,17 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_once_per_user_promotion'
   s.version     = '2.0.8.beta'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Rule for promotions to have a user apply it only once'
+  s.description = s.summary
   s.required_ruby_version = '>= 1.9.3'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'Peter Berkenbosch'
+  s.email     = 'info@peterberkenbosch.nl'
+  s.homepage  = 'http://www.peterberkenbosch.nl'
 
-  #s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files       = `git ls-files`.split("\n")
+  s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+
   s.require_path = 'lib'
   s.requirements << 'none'
 
