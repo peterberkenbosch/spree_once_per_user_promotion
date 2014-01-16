@@ -1,7 +1,7 @@
 SpreeOncePerUserPromotion
 =========================
 
-Rule for promotions to have a user apply it only once.
+Introduction goes here.
 
 Installation
 ------------
@@ -12,10 +12,11 @@ Add spree_once_per_user_promotion to your Gemfile:
 gem 'spree_once_per_user_promotion'
 ```
 
-Bundle your dependencies:
+Bundle your dependencies and run the installation generator:
 
 ```shell
 bundle
+bundle exec rails g spree_once_per_user_promotion:install
 ```
 
 Testing
@@ -36,4 +37,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_once_per_user_promotion/factories'
 ```
 
-Copyright (c) 2013 Peter Berkenbosch, released under the New BSD License
+Copyright (c) 2014 [name of extension creator], released under the New BSD License
